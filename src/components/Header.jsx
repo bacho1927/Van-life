@@ -4,7 +4,7 @@ import { useLog } from "../Context";
 
 export default function Header() {
   const { dispatch, status } = useLog();
-
+  console.log('hi')
   return (
     <header>
       <Link className="site-logo" to="/">
